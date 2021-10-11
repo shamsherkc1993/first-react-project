@@ -11,7 +11,7 @@ import News from "./components/pages/News";
 import Contact from "./components/pages/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import notFound from "./components/pages/Notfound";
+// import notFound from "./components/pages/Notfound";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/price" component={Prices} />
           <Route exact path="/news" component={News} />
           <Route exact path="/contact" component={Contact} />
-          <Route component={notFound} />
+//           <Route component={notFound} />
         </Switch>
       </div>
     </Router>
